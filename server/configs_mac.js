@@ -28,7 +28,7 @@ exports.account_server = function(){
 		//
 		DEALDER_API_IP:LOCAL_IP,
 		DEALDER_API_PORT:12581,
-		VERSION:'20161227',
+		VERSION:'20191227',
 		APP_WEB:'http://fir.im/2f17',
 	};
 };

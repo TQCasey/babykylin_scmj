@@ -145,12 +145,12 @@ cc.Class({
                         console.log("error.");
                     }
                     else{
-                        if(cc.vv.SI.version != cc.VERSION){
-                            cc.find("Canvas/alert").active = true;
-                        }
-                        else{
+                        // if(cc.vv.SI.version != cc.VERSION){
+                        //     cc.find("Canvas/alert").active = true;
+                        // }
+                        // else{
                             cc.director.loadScene(self._mainScene);
-                        }
+                        // }
                     }
                 }.bind(this));
             }
